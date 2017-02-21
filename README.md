@@ -23,14 +23,16 @@ qrdecoder.decode(path,
 
 ```javascript
 {
-	ZXingLocation: "/path",
-	try_harder: false,
+  ZXingLocation: "/path",
+  try_harder: false,
   multi: false
 }
 ```
 
 ## ZXing
-In this repository are two jars (javase.jar and core.jar). Both of these belong to https://github.com/zxing/zxing and were retrieved from http://repo1.maven.org/maven2/com/google/zxing/
+In this repository are three jars: javase-3.3.0.jar, core-3.3.0.jar and jcommander-1.60.jar.  
+The two first of these belong to https://github.com/zxing/zxing and were retrieved from http://repo1.maven.org/maven2/com/google/zxing/  
+The last one is a dependency of ZXing which belong to https://github.com/cbeust/jcommander and was retrieved from https://repo1.maven.org/maven2/com/beust/jcommander/  
 
 ZXing included only for ease of use.
 
